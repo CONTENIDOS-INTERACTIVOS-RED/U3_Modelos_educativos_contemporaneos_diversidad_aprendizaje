@@ -15,17 +15,67 @@
 .brounded-sm
   border-radius: 8px !important
 
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
+.j1
+  display: grid
+  align-items: center  
+
+.br-1
+  border-radius: 10px !important  
+
+.dot
+  &-1  
+    border-style: dashed 
+    border-width: 1px 
+    background-color: #8B454E 
+
+.link-1
+  color: #0562FF !important
+
+.color
+  &-1
+    color: #7B3289 !important    
+
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #C7F7DF
   &-2
-    background-color: #FFFBE8
+    background-color: #DCEBF7
   &-3
-    background-color: #F0E9F6
+    background-color: #4D687E
+    *
+      color: white
   &-4
-    background-color: #EAF8FD
+    background-color: #8B454E
+    *
+      color: white
+  &-5
+    background-color: #EAF2FB
+  &-6
+    background-color: #FEE6BF
+  &-7
+    background-color: #FCD7DB
+  &-8
+    background-color: #4D687E
+    *
+      color: white
+  &-9
+    background-color: #8EBEE7
+  &-10
+    background-color: #F3F8FC
+  &-11
+    background-color: #EAF8FD                            
+  &-12
+    background-color: #EAF8FD    
   &-info
-    background-color: #E8EEFD
+    background-image: url("../assets/bg/bg-info.png") !important
   &-sintesis
     background-color: #F9F9F9
   &-white
@@ -41,21 +91,39 @@
 
 // Full Width Background
 .bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-  @media screen and (max-width: $bp-max-sm)
-    padding-left: 1.5rem
-    padding-right: 1.5rem
+  &-1
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem
+
+  &-2
+    background-size: 100% 58%
+    background-repeat: no-repeat
+    background-position: top
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem   
+
+  &-3
+    background-size: 100% 61%
+    background-repeat: no-repeat
+    background-position: top
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem         
+
 
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
-    background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
+    background-image: url("../assets/bg/bg2.png") !important
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
@@ -142,6 +210,9 @@ $custom-card-img-height: 322px
 .shadow-soft
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
 
+.sha
+  border: 1px solid rgba(0, 0, 0, 0.062) 
+  
 .tabs-content
   background-color: #F4F4F4
 
@@ -227,3 +298,24 @@ th.bg-color-tabla
 
 .bordes
   border: 1px solid lightgray !important
+
+.acordion__header
+  background-color: #FCEBA6 !important
+
+.acordion__header--active
+  background-color: #FDAF2F !important
+  h4, i
+    color: #000 !important
+
+.acordion__contenido
+  background-color: #FEEED4 !important    
+
+.slyder-a__tipo-b
+  background-color: #4D687E !important    
+.slyder-a__bullets__item
+  background-color: #A8B7C3 !important
+  border-color: #A8B7C3 !important        
+
+.slyder-a__bullets__item--active
+  background-color: #F3F8FC !important
+  border-color: #F3F8FC !important     
