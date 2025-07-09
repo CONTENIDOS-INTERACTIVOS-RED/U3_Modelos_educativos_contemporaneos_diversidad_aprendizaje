@@ -119,14 +119,14 @@
                   h5 Regalos            
                   p Bienes o incentivos dados de forma gratuita al alcanzar un objetivo (insignias, bonos, accesos especiales, etc.).
                 .bg-color-white.box-shadow.p-3(x="74.3%" y="5.9%" numero="+")
-                  h5 Obtención de premios             
-                  p Se otorgan recompensas simbólicas por logros alcanzados, a modo de colección o distintivo.
-                .bg-color-white.box-shadow.p-3(x="96.9%" y="26.5%" numero="+")
-                  h5 Clasificaciones             
-                  p Se crean #[i rankings] o listas visibles que ordenan a los usuarios según sus logros o puntuaciones.
-                .bg-color-white.box-shadow.p-3(x="93.9%" y="57.6%" numero="+")
                   h5 Desafíos             
                   p Competencias entre usuarios, donde quien alcanza mejores resultados obtiene puntos o premios.
+                .bg-color-white.box-shadow.p-3(x="96.9%" y="26.5%" numero="+")
+                  h5 Obtención de premios             
+                  p Se otorgan recompensas simbólicas por logros alcanzados, a modo de colección o distintivo.                  
+                .bg-color-white.box-shadow.p-3(x="93.9%" y="57.6%" numero="+")
+                  h5 Clasificaciones             
+                  p Se crean #[i rankings] o listas visibles que ordenan a los usuarios según sus logros o puntuaciones.
     .bg-full-width.bg-color-1.mb-5(data-aos="fade-down")
       .px-4.px-md-5.py-4
         .row.align-items-center

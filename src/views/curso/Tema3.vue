@@ -244,7 +244,7 @@
                 img.img-a.img-t(src="@/assets/curso/temas/59.png")           
             .col-lg-7
               h5.mb-4 Monitoreo y adaptación
-              p Permite identificar patrones de aprendizaje, dificultades comunes y oportunidades de mejora, a partir del análisis de datos.
+              p Algoritmos que ajustan actividades, recursos y niveles de dificultad, según el progreso del estudiante.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.mb-3.mb-lg-0
               figure
